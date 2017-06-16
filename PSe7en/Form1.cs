@@ -27,20 +27,6 @@ namespace PSe7en
 
         }
 
-        private void metroButton1_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                PS4.Connect(metroTextBox1.Text);
-                metroLabel1.Text = "Status: Connected to " + metroTextBox1.Text;
-            }
-            catch
-            {
-                MessageBox.Show("Failed to connect to " + metroTextBox1.Text);
-                metroLabel1.Text = "Status: Failed to connect to " + metroTextBox1.Text;
-            }
-            }
-
         private void metroLabel1_Click(object sender, EventArgs e)
         {
 
@@ -80,7 +66,7 @@ namespace PSe7en
                     MessageBox.Show("Failed to disconnect from PS4 are you connected?");
                 }
             }
-            }
+        }
 
         private void metroTabPage1_Click(object sender, EventArgs e)
         {
@@ -119,7 +105,7 @@ namespace PSe7en
         private void metroButton6_Click(object sender, EventArgs e)
         {
             try
-            { 
+            {
                 PS4.writeMemory("0x1F0F29C", "metroTextBox1.Text");
             }
             catch
@@ -132,5 +118,79 @@ namespace PSe7en
         {
             System.Diagnostics.Process.Start("https://www.se7ensins.com");
         }
+
+        private void metroTextBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void metroTextBox5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void metroButton7_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                PS4.writeMemory(metroTextBox3.Text, metroTextBox5.Text);
+            }
+            catch
+            {
+                MessageBox.Show("Errored, please try something else");
+            }
+        }
+
+        private void metroTextBox4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void metroButton8_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                PS4.AttachProcess(metroTextBox4.Text);
+            }
+            catch
+            {
+                MessageBox.Show("Errored, please try something else");
+            }
+        }
+
+        private void metroButton10_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                PS4.Connect(metroTextBox6.Text);
+                metroLabel1.Text = "Status: Connected to " + metroTextBox6.Text;
+            }
+            catch
+            {
+                MessageBox.Show("Failed to connect to " + metroTextBox6.Text);
+                metroLabel1.Text = "Status: Failed to connect to " + metroTextBox6.Text;
+            }
+        }
+
+        private void metroTextBox6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void metroButton9_Click(object sender, EventArgs e)
+        {
+            {
+                try
+                {
+                    PS4.Disconnect();
+                    metroLabel1.Text = "Status: Disconnected";
+                }
+                catch
+                {
+                    MessageBox.Show("Failed to disconnect from PS4");
+                }
+            }
+        }
     }
 }
+
