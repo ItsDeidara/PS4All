@@ -1,0 +1,13 @@
+c:\users\jake\documents\visual studio 2017\Projects\PSe7en\PSe7en\bin\Debug\PSe7en.exe.config
+c:\users\jake\documents\visual studio 2017\Projects\PSe7en\PSe7en\bin\Debug\PSe7en.exe
+c:\users\jake\documents\visual studio 2017\Projects\PSe7en\PSe7en\bin\Debug\PSe7en.pdb
+c:\users\jake\documents\visual studio 2017\Projects\PSe7en\PSe7en\bin\Debug\MetroFramework.Design.dll
+c:\users\jake\documents\visual studio 2017\Projects\PSe7en\PSe7en\bin\Debug\MetroFramework.dll
+c:\users\jake\documents\visual studio 2017\Projects\PSe7en\PSe7en\bin\Debug\MetroFramework.Fonts.dll
+c:\users\jake\documents\visual studio 2017\Projects\PSe7en\PSe7en\bin\Debug\PS4ME.dll
+c:\users\jake\documents\visual studio 2017\Projects\PSe7en\PSe7en\obj\Debug\PSe7en.csprojResolveAssemblyReference.cache
+c:\users\jake\documents\visual studio 2017\Projects\PSe7en\PSe7en\obj\Debug\PSe7en.Form1.resources
+c:\users\jake\documents\visual studio 2017\Projects\PSe7en\PSe7en\obj\Debug\PSe7en.Properties.Resources.resources
+c:\users\jake\documents\visual studio 2017\Projects\PSe7en\PSe7en\obj\Debug\PSe7en.csproj.GenerateResource.Cache
+c:\users\jake\documents\visual studio 2017\Projects\PSe7en\PSe7en\obj\Debug\PSe7en.exe
+c:\users\jake\documents\visual studio 2017\Projects\PSe7en\PSe7en\obj\Debug\PSe7en.pdb
