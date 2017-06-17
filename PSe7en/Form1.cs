@@ -37,7 +37,7 @@ namespace PSe7en
 
         }
 
-        private void metroButton2_Click(object sender, EventArgs e)
+        private void metroButton2_Click(object sender, EventArgs e) //Attaches tool to COD Ghosts
         {
             {
                 try
@@ -73,7 +73,7 @@ namespace PSe7en
 
         }
 
-        private void metroButton4_Click(object sender, EventArgs e)
+        private void metroButton4_Click(object sender, EventArgs e) //Enables an FPS Counter
         {
             try
             {
@@ -85,7 +85,7 @@ namespace PSe7en
             }
         }
 
-        private void metroButton5_Click(object sender, EventArgs e)
+        private void metroButton5_Click(object sender, EventArgs e) //Enables Unlimited Ammo
         {
             try
             {
@@ -99,14 +99,14 @@ namespace PSe7en
 
         private void metroTextBox2_Click(object sender, EventArgs e)
         {
-
+            //allows user input for a new ign
         }
 
-        private void metroButton6_Click(object sender, EventArgs e)
+        private void metroButton6_Click(object sender, EventArgs e) //Allows you to change your IGN
         {
             try
             {
-                PS4.writeMemory("0x1F0F29C", "metroTextBox1.Text");
+                PS4.writeMemory("0x1F0F29C", metroTextBox2.Text);
             }
             catch
             {
@@ -114,22 +114,22 @@ namespace PSe7en
             }
         }
 
-        private void metroLink1_Click(object sender, EventArgs e)
+        private void metroLink1_Click(object sender, EventArgs e) //random bs for shits and gigs
         {
             System.Diagnostics.Process.Start("https://www.se7ensins.com");
         }
 
         private void metroTextBox3_Click(object sender, EventArgs e)
         {
-
+            //allows user input for an offset
         }
 
         private void metroTextBox5_Click(object sender, EventArgs e)
         {
-
+            //allows user input for an offset
         }
 
-        private void metroButton7_Click(object sender, EventArgs e)
+        private void metroButton7_Click(object sender, EventArgs e) //Allows you to poke a custom offset
         {
             try
             {
@@ -143,10 +143,10 @@ namespace PSe7en
 
         private void metroTextBox4_Click(object sender, EventArgs e)
         {
-
+            //allows user input for a custom file to attach too
         }
 
-        private void metroButton8_Click(object sender, EventArgs e)
+        private void metroButton8_Click(object sender, EventArgs e) //Attachs RTE tool to custom file. i.e default_mp.elf
         {
             try
             {
@@ -158,7 +158,7 @@ namespace PSe7en
             }
         }
 
-        private void metroButton10_Click(object sender, EventArgs e)
+        private void metroButton10_Click(object sender, EventArgs e) //Connects the RTE Tool to the PS4
         {
             try
             {
@@ -174,10 +174,10 @@ namespace PSe7en
 
         private void metroTextBox6_Click(object sender, EventArgs e)
         {
-
+            //allows user input to connect to a console ip
         }
 
-        private void metroButton9_Click(object sender, EventArgs e)
+        private void metroButton9_Click(object sender, EventArgs e) //Disconnects RTE tool from PS4
         {
             {
                 try

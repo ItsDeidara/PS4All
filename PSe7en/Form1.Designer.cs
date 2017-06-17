@@ -143,7 +143,7 @@
             this.metroTabPage1.HorizontalScrollbarSize = 10;
             this.metroTabPage1.Location = new System.Drawing.Point(4, 38);
             this.metroTabPage1.Name = "metroTabPage1";
-            this.metroTabPage1.Size = new System.Drawing.Size(424, 184);
+            this.metroTabPage1.Size = new System.Drawing.Size(424, 202);
             this.metroTabPage1.Style = MetroFramework.MetroColorStyle.Green;
             this.metroTabPage1.TabIndex = 0;
             this.metroTabPage1.Text = "Ghosts";
@@ -425,7 +425,7 @@
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.Name = "Form1";
             this.Style = MetroFramework.MetroColorStyle.Green;
-            this.Text = "PSe7en";
+            this.Text = "PS4All";
             this.TextAlign = MetroFramework.Forms.MetroFormTextAlign.Center;
             this.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.Load += new System.EventHandler(this.Form1_Load);
